@@ -44,7 +44,7 @@ Support and contact details
 Incase of a problem, issue or need more clarification, feel free to send an email hope.mbuthye38@gmail.c
 # About
 This is an application that enables users to views pictures as well as share links to thier favourite pictures. The user can also view images according to category and location taken.
-[https://mimigalleryry.herokuapp.com]
+[https://gallery888.herokuapp.com/]
 Resources
 Readme
 Releases
