@@ -1,11 +1,8 @@
 from django.shortcuts import render
 from django.http  import HttpResponse
+from .models import Location,Category,photos
 
-#................
-# Create your views here.
 def welcome(request):
+    ('welcome')
+    # return HttpResponse('Welcome to gallaryx')
     return render(request, 'welcome.html')
-
-# Create your views here.
-def welcome(request):
-    return HttpResponse('Welcome to gallaryx')
