@@ -1,3 +1,34 @@
 h1{
    color: aqua; 
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+   color: black;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+   color: blanchedalmond;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul{color: burlywood;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+   background-image: url(/static/photogallary/sports.jpeg);
+   background-repeat: no-repeat ;
+   background-size: cover;
+   
+}
+image{
+   opacity: 10;
+}
+img:hover{
+   opacity: 10;
+}
+.button1{
+  background-color: blue;
+  text-align: center; 
+  padding: 50%;
+  border-radius: 50%;
 }
