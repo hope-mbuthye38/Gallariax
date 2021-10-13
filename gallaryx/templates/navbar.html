@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<style>
+    nav {
+        position: fixed;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        height:80px;
+        background-color:rgba(5, 55, 70, 0.986);
+        nav-index: var(category);
+        box-shadow: 0px 0px 10px 0px gray;
+        z-index: 10;
+    }
+    ul li {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+    }
+    ul a {
+        float: inline-end;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-toggler-icon" href="#"><img src="" alt=""></a>
+        <span class="nav-item active " >
+            <a class="nav-link  "href="#"style="text-decoration: none; color: #000;"  >Home <span class="sr-only">(current)</span></a>
+        </span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="dropdown">
+            <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton" style="font-weight: bold;"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categories
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                
+                <a class="dropdown-item" data-target="{{category.id}}" href="#"></a>
+                
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-4 navbar-right">
+            <form class="navbar-form" role="search" action="#">
+                <div class="input-group">
+                    <input style="border-radius: 20px;" type="text" class="form-control btn btn-outline-light" placeholder="Search photo " name="category">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i
+                                class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Location
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Home</a>
+                <a class="dropdown-item" href="#">Nairobi</a>
+                <a class="dropdown-item" href="#">Kenya</a>
+            </div>
+        </div>
+    </nav>
+</body>
