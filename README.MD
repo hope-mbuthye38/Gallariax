@@ -52,7 +52,7 @@ No releases published
 Packages
 No packages published
 Languages
-Python 51.4%
-JavaScript 0.9%
-HTML 41.0%
-Other 1.9%
+Python 96.3%
+JavaScript 1.4%
+HTML 1.0%
+Other 1.3%
